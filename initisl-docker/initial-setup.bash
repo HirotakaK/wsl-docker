@@ -39,6 +39,13 @@ sudo apt install -y \
 # ===========================
 # GitHub CLI
 # ===========================
+
+git config --global user.email "caealeajactaest@gmail.com"
+git config --global user.name "Kikushima Hirotaka"
+
+# ===========================
+# GitHub CLI
+# ===========================
 type -p curl >/dev/null || sudo apt install curl -y
 
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
